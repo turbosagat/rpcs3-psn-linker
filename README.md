@@ -37,6 +37,8 @@ Required to extract the title_id from the PARAM.SFO so the correct folder struct
 
 Pass the full path to where the executable is as the third argument.
 
+If you are on MacOS, you will either need to compile it yourself, or use the [fork of SFO](https://github.com/turbosagat/sfo/releases/tag/v1.03) that provides a universal binary. 
+
 ### Required Directory structure ###
 
 It assumes all games are installed at the same level underneath the directory you provide. Inside each folder, its expected to take the layout of a PS3 digital game. At minimum there will be a `USRDIR` directory and a `PARAM.SFO` file.
